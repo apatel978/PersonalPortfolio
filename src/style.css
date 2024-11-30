@@ -1,3 +1,31 @@
+/*
+Shades to use
+
+#ff004f
+Lighter Shades:
+#ff3366
+#ff6680
+#ff99a3
+#ffc4cc
+Darker Shades:
+#cc0044
+#990033
+#660022
+#330011
+-------------------------------
+#b54769
+Lighter Shades:
+#cc6480
+#d98596
+#e5a7af
+#f2c9c8
+Darker Shades:
+#993b59
+#802f49
+#662538
+#4d1c2a
+*/
+
 html {
   --section-background-color: linear-gradient(
     to bottom left,
@@ -11,7 +39,8 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  /* --imp-text-color: #c770f0; */
+  --imp-text-color: #ff004f;
 }
 
 .purple {
@@ -57,26 +86,30 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  /* background: #2d1950; */
+  background: #330011;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  /* background: rgba(178, 121, 216, 0.959); */
   border-radius: 12px;
+  background-color: #ff004f;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  /* background: rgba(222, 130, 235, 0.911); */
   border-radius: 12px;
+  background: #990033;
 }
 
 /* --------- */
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #1b1a2ea9 !important;
+  /* background-color: #1b1a2ea9 !important; */
+  background-color: #330011 !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
@@ -97,7 +130,8 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  /* background-color: #be50f4 !important; */
+  background-color: #ff004f !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -144,7 +178,8 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    /* background-color: #181a27 !important; */
+    background-color: #330011 !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -155,8 +190,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 3.4em !important;
+  width: 4.5em !important;
 }
 
 .navbar-nav .nav-link {
@@ -194,7 +229,8 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  /* background: #c95bf5; */
+  background: #ff004f;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -281,17 +317,18 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #ff004f;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  /* color: #be6adf !important; */
+  color: #ff004f !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #ff3366 !important;
 }
 
 @media (max-width: 767px) {
@@ -371,21 +408,26 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #68187a;
-  transition: 0.5s;
+  /* background: #68187a; */
+  background: #cc0044;
+  transition: 0.3s;
   transform: scale(0.9);
   z-index: -1;
 }
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  /* box-shadow: 0 0 15px #801f95; */
+  box-shadow: 0 0 15px #cc0044;
 }
 
 .home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  /* color: #87209e; */
+  color: #ff004f;
+  /* box-shadow: 0 0 5px #87209e;
+  text-shadow: 0 0 2px #87209e; */
+  box-shadow: 0 0 5px #ff004f;
+  text-shadow: 0 0 2px #ff004f;
 }
 
 .social-icons {
@@ -395,7 +437,8 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  /* color: #700c86 !important; */
+  color: #cc0044 !important;
 }
 
 /* --------- */
@@ -439,7 +482,8 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  /* color: #a588c0 !important; */
+  color: #ff3366 !important;
 }
 /* --------- */
 /* Projects */
@@ -460,7 +504,8 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  /* box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important; */
+  box-shadow: 0 4px 5px 3px #cc0044 !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -470,7 +515,8 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  /* box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important; */
+  box-shadow: 0 4px 4px 5px #ff3366 !important;
 }
 
 .blog-card {
@@ -518,14 +564,14 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  background-color: #660022 !important;
+  border-color: #660022 !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
-  border-color: #6d20c5d7 !important;
+  background-color: #cc0044 !important;
+  border-color: #cc0044 !important;
 }
 .btn:focus {
   outline: none !important;
@@ -555,12 +601,14 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  border: 1.7px solid #ff3366 !important;
+  /* border: 1.7px solid rgba(200, 137, 230, 0.637) !important; */
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  box-shadow: 4px 5px 4px 3px #330011 !important;
+  /* box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important; */
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -574,7 +622,8 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  /* border: 2.2px solid rgba(197, 115, 230, 0.883) !important; */
+  border: 2.2px solid #ff3366 !important;
 }
 .tech-icon-images {
   padding: 20px !important;

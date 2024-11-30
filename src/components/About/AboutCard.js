@@ -13,8 +13,7 @@ function AboutCard() {
             <br />
             I am currently looking for a career as a software engineer.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra. I have completed App Academy's 48-week course and finished a Java Course through HTD Talent.
+            I have completed App Academy's 48-week bootcamp and finished a Java Course through HTD Talent.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -28,7 +27,7 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p style={{ color: "#ff3366" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
           <footer className="blockquote-footer">Akshar</footer>
