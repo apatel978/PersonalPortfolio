@@ -14,10 +14,14 @@ import {
 } from "react-icons/di";
 import {
   // SiRedis,
-  SiFirebase,
+  // SiFirebase,
   // SiNextdotjs,
   // SiSolidity,
   SiPostgresql,
+  SiFlask,
+  SiSpring,
+  SiJunit5,
+  SiJinja,
 } from "react-icons/si";
 // import { TbBrandGolang } from "react-icons/tb";
 
@@ -51,9 +55,9 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
-      </Col>
+      </Col> */}
       {/* <Col xs={4} md={2} className="tech-icons">
         <SiRedis />
       </Col> */}
@@ -71,6 +75,18 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiCss3 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFlask />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSpring />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJunit5 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJinja />
       </Col>
     </Row>
   );
